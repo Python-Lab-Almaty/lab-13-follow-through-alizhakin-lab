@@ -1,0 +1,40 @@
+{
+  "name": "ali",
+  "seed": 4642,
+  "levels": {
+    "level_1": {
+      "tasks": [
+        {
+          "id": "1.1",
+          "title": "Изменить цвет героя",
+          "description": "Поменяй цвет кружка с красного на синий",
+          "hint": "Ищи строку: hero.color(",
+          "code_pattern": "hero.color\\(\\s*[\\\"']blue[\\\"']",
+          "points": 5
+        },
+        {
+          "id": "1.2",
+          "title": "Изменить форму героя",
+          "description": "Замени круг на треугольник или квадрат",
+          "hint": "Ищи строку: hero.shape(",
+          "code_pattern": "hero.shape\\(\\s*[\\\"']triangle[\\\"']",
+          "points": 5
+        },
+        {
+          "id": "1.5",
+          "title": "Изменить размер героя",
+          "description": "Увеличь размер героя в 1.5 раза",
+          "hint": "Ищи строку: hero.shapesize(",
+          "code_pattern": "hero.shapesize\\(\\s*3",
+          "points": 5
+        }
+      ],
+      "completed": [
+        false,
+        false,
+        false
+      ],
+      "max_points": 15
+    }
+  }
+}
